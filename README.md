@@ -1,7 +1,5 @@
 # Content-Based Movie Recommendation System
 
-This repository contains my project work for **WiDS (Winter in Data Science)** conducted by the Analytics Club, IIT Bombay.
-
 ## Project Objective
 The objective of this project is to build a **content-based movie recommendation system** using movie metadata such as genres, cast, director, and keywords.
 
