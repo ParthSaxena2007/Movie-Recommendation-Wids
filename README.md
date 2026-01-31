@@ -1,14 +1,42 @@
-# Movie-Recommendation-Wids
-Progress till Midterm
+# Content-Based Movie Recommendation System
 
-Merged movie datasets (metadata, credits, keywords, links)
+This repository contains my project work for **WiDS (Winter in Data Science)** conducted by the Analytics Club, IIT Bombay.
 
-Cleaned and processed data
+## Project Objective
+The objective of this project is to build a **content-based movie recommendation system** using movie metadata such as genres, cast, director, and keywords.
 
-Extracted genres, cast, director, keywords
+## Work Completed
 
-Created soup feature combining important movie attributes
+### Week 2 – Exploratory Data Analysis
+- Performed genre-wise analysis of movies
+- Visualized distribution of movies across different genres
 
-Selected Top 2500 popular movies
+### Week 3 – Dataset Creation
+- Merged multiple datasets:
+  - Movies metadata
+  - Credits
+  - Keywords
+  - Links
+- Filtered valid movies and created a master dataset
 
-Final dataset ready for building recommender model
+### Week 4 – Data Preprocessing
+- Cleaned and processed text-based features
+- Extracted genres, cast, director, and keywords
+- Created a combined **`soup`** feature representing each movie
+- Selected the **top 2500 movies based on popularity**
+- Generated the final dataset used for recommendations
+
+### Week 5 – Recommendation System
+- Converted movie features into numerical form using **CountVectorizer**
+- Used **cosine similarity** to compute similarity between movies
+- Implemented a recommendation function that:
+  - Takes a movie title as input
+  - Returns similar movies
+  - Displays movie title, director, and release date
+
+## Files in Repository
+- Week-wise Jupyter notebooks documenting each stage of the project
+- `master_dataset_final.csv`: Final processed dataset used for the recommendation system
+
+## Usage
+The recommendation system can be used by calling the `recommend()` function in the Week 5 notebook with a movie title as input.
